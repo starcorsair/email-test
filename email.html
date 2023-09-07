@@ -25,6 +25,8 @@
         padding-right: 100px;
         margin: 0;
         border-spacing: 0 !important;
+        max-width: 1200px;
+        min-width: 600px;
       "
     >
       <!--block 1-->
@@ -92,7 +94,6 @@
           <img
             src="Group 5.png"
             alt="Обновление"
-            width="1000px"
             height="360px"
             style="padding-top: 41px"
           />
@@ -168,6 +169,7 @@
           </h2>
         </td>
       </tr>
+      <!--block5-->
       <tr>
         <td
           style="
@@ -261,7 +263,7 @@
           </p>
         </td>
       </tr>
-      <!--block 5-->
+      <!--block 6-->
       <tr>
         <td>
           <h2
@@ -294,7 +296,7 @@
           </h2>
           <p
             style="
-              padding-bottom: 60px;
+              /*padding-bottom: 60px;*/
               color: #333;
               text-align: center;
               font-family: Verdana;
@@ -309,11 +311,21 @@
           </p>
         </td>
       </tr>
-      <tr>
-        <td>
+      <!--block7-->
+      <tr style="display: block; white-space: nowrap; padding-top: 60px">
+        <td
+          style="
+            white-space: normal;
+            display: inline-block;
+
+            vertical-align: top;
+          "
+        >
           <!--main card-->
-          <span style="display: inline-block; width: 485px">
-            <img src="Group 3.png" alt="SIGMA" style="padding-right: 18px" />
+          <!--start card1-->
+
+          <span style="display: block; width: min-content">
+            <img src="Group 3.png" alt="SIGMA" />
             <!--card1-->
             <span
               style="
@@ -379,9 +391,19 @@
                 >ПЕРЕЙТИ</a
               >
             </span>
-            <!--card2
-          -->
-
+          </span>
+          <!--end card1-->
+        </td>
+        <!--start card2-->
+        <td
+          style="
+            white-space: normal;
+            display: inline-block;
+            width: 48%;
+            vertical-align: top;
+          "
+        >
+          <span style="display: block">
             <img src="Group 7.png" alt="SECURITY" />
             <span
               style="
@@ -458,8 +480,156 @@
               >
             </span>
           </span>
+
+          <!--end card2-->
         </td>
       </tr>
     </table>
   </body>
 </html>
+<!--
+
+          <span style="display: inline-block; width: 485px">
+            <img src="Group 3.png" alt="SIGMA" style="padding-right: 18px" />
+
+            <span
+              style="
+                display: inline-block;
+                background: #ffff;
+                padding-left: 51px;
+                padding-right: 51px;
+                padding-bottom: 70px;
+              "
+            >
+              <h2
+                style="
+                  color: #000;
+                  font-family: Verdana, sans-serif;
+                  font-size: 29px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 150%;
+                  padding-top: 65.12px;
+                  padding-bottom: 30px;
+                "
+              >
+                Если у вас есть доступ к базе знаний
+              </h2>
+              <p
+                style="
+                  color: #8d8d8d;
+                  font-family: Verdana;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 157.993%;
+                  padding-bottom: 88px;
+                "
+              >
+                Читайте полную инструкцию по обновлению
+              </p>
+              <a
+                href="#"
+                style="
+                  display: inline-block;
+                  width: 364px;
+                  border-radius: 12px;
+                  background: #ed1b2f;
+                  box-shadow: 0px 1px 2px 0px rgba(135, 82, 41, 0.05),
+                    0px 3px 4px 0px rgba(180, 91, 20, 0.05),
+                    0px 8px 16px 0px #ff9b9b;
+                  color: #fff;
+                  padding-top: 35px;
+                  padding-bottom: 34px;
+                  padding-left: 10px;
+                  padding-right: 10px;
+                  text-decoration: none;
+                  text-align: center;
+                  font-family: Roboto, Verdana, sans-serif;
+                  font-size: 26px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: normal;
+                  letter-spacing: 1.04px;
+                  text-transform: uppercase;
+                "
+                >ПЕРЕЙТИ</a
+              >
+            </span>
+
+            <img src="Group 7.png" alt="SECURITY" />
+            <span
+              style="
+                display: inline-block;
+                background: #ffff;
+                padding-left: 51px;
+                padding-right: 51px;
+                padding-bottom: 70px;
+              "
+            >
+              <h2
+                style="
+                  color: #000;
+                  font-family: Verdana, sans-serif;
+                  font-size: 30px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 150%;
+                "
+              >
+                Получите доступ <br />
+                к базе знаний
+              </h2>
+              <p
+                style="
+                  color: #8d8d8d;
+                  font-family: Verdana;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 157.993%;
+                "
+              >
+                1. Зарегистрируйтесь на <br />
+                support.sigma.ru
+              </p>
+              <p
+                style="
+                  color: #8d8d8d;
+                  font-family: Verdana;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 157.993%;
+                  padding-bottom: 88px;
+                "
+              >
+                2. Отправьте запрос на доступ
+              </p>
+              <a
+                style="
+                  display: inline-block;
+                  border-radius: 12px;
+                  background: #ed1b2f;
+                  box-shadow: 0px 1px 2px 0px rgba(135, 82, 41, 0.05),
+                    0px 3px 4px 0px rgba(180, 91, 20, 0.05),
+                    0px 8px 16px 0px #ff9b9b;
+                  color: #fff;
+                  padding-top: 35px;
+                  padding-bottom: 34px;
+                  padding-left: 5px;
+                  padding-right: 5px;
+                  text-decoration: none;
+                  text-align: center;
+                  font-family: Roboto, Verdana, sans-serif;
+                  font-size: 26px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: normal;
+                  letter-spacing: 1.04px;
+                  text-transform: uppercase;
+                "
+                >Зарегистрироваться</a
+              >
+            </span>
+          </span>-->
